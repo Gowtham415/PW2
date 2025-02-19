@@ -5,7 +5,7 @@ import { Console } from 'console'
 
 
 type Pages = {
-    flightSearch: FlightSearchPage,
+    flightSearchPage: FlightSearchPage,
     homePage: HomePage
 }
 
@@ -15,9 +15,9 @@ type ForEachWorker = {
 }
 
 export const test = base.extend<Pages & ForEachWorker>({
-    flightSearch: async ({ page }, use) => {
-        const flightSearch = new FlightSearchPage(page);
-        await use(flightSearch);
+    flightSearchPage: async ({ page }, use) => {
+        const flightSearchPage = new FlightSearchPage(page);
+        await use(flightSearchPage);
     },
 
     homePage: async ({ page }, use) => {

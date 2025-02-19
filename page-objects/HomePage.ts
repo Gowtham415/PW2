@@ -11,6 +11,7 @@ export class HomePage {
     }
 
     async closeIcon() {
+        await this.page.locator('[data-testid=closeIcon]').scrollIntoViewIfNeeded()
         await this.page.locator('[data-testid=closeIcon]').click()
     }
 
