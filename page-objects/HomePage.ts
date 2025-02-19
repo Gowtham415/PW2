@@ -7,12 +7,11 @@ export class HomePage {
     }
 
     async goToSite() {
-        await this.page.goto('/')
+        await this.page.goto('/', { waitUntil: 'networkidle' })
     }
 
     async closeIcon() {
-        await this.page.locator('[data-testid=closeIcon]').scrollIntoViewIfNeeded()
-        await this.page.locator('[data-testid=closeIcon]').click()
+        await this.page.locator('[data-testid=closeIcon]').click({ delay: 200 })
     }
 
     async getTitle() {

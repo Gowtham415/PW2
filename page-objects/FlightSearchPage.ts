@@ -11,8 +11,26 @@ export class FlightSearchPage {
         let returnDate = new Date(departureDate);
         returnDate.setDate(departureDate.getDate() + 2);
 
+        await this.setSourceCity()
+        await this.setDestination()
         await this.selectDepartureDate(departureDate);
         await this.selectReturnDate(returnDate);
+        await this.clickSearchFights()
+
+    }
+
+    async setSourceCity() {
+        await this.page.getByPlaceholder('Where from?').pressSequentially('Bangalore')
+        await this.page.getByText('Bangalore, IN - Kempegowda International Airport (BLR)').click()
+    }
+
+    async setDestination() {
+        await this.page.getByPlaceholder('Where to?').pressSequentially('Mumbai')
+        await this.page.getByText('Mumbai, IN - Chatrapati Shivaji Airport (BOM)').click()
+    }
+
+    async clickSearchFights() {
+        await this.page.getByRole('button', { name: 'Search flights' }).click()
     }
 
     private async selectDepartureDate(departureDate: Date) {
@@ -27,12 +45,13 @@ export class FlightSearchPage {
         await departureDateLocator.click();
 
         while (!(await this.page.locator('[class="DayPicker-Caption"]').allTextContents()).includes(datePanelTobeSelected)) {
+            await this.page.locator('[data-testid="rightArrow"]').scrollIntoViewIfNeeded();
             await this.page.locator('[data-testid="rightArrow"]').click();
         }
 
         await this.page.locator('[class="DayPicker-Month"]', { hasText: `${datePanelTobeSelected}` })
             .getByText(expectedDate, { exact: true })
-            .click();
+            .click({ delay: 200 });
 
         await expect(departureDateLocator).toHaveText(dateToAssert);
     }
@@ -50,9 +69,7 @@ export class FlightSearchPage {
         }
 
         await this.page.locator('[class="DayPicker-Month"]', { hasText: `${datePanelTobeSelected}` })
-            .getByText(expectedDate, { exact: true }).scrollIntoViewIfNeeded()
-        await this.page.locator('[class="DayPicker-Month"]', { hasText: `${datePanelTobeSelected}` })
-            .getByText(expectedDate, { exact: true }).click();
+            .getByText(expectedDate, { exact: true }).click({ delay: 300 });
 
         await expect(this.page.locator('[class="c-inherit flex flex-1 flex-nowrap fs-16 fw-500 card-price"]').last())
             .toHaveText(dateToAssert);

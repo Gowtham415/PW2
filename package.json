@@ -4,9 +4,10 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.4"
+    "@types/node": "^22.13.4",
+    "monocart-reporter": "^2.9.15"
   },
   "scripts": {
-    "flightsTest": "npx playwright test -g 'Flight Search'"
+    "flightsTest": "npx playwright test -g 'Flight Search' --headed"
   }
 }
