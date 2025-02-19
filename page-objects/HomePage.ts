@@ -1,9 +1,8 @@
 import { Page } from '@playwright/test'
 
 export class HomePage {
-    readonly page: Page
 
-    constructor(page: Page) {
+    constructor(public readonly page: Page) {
         this.page = page;
     }
 
@@ -15,5 +14,16 @@ export class HomePage {
         await this.page.locator('[data-testid=closeIcon]').click()
     }
 
+    async getTitle() {
+        return await this.page.title();
+    }
+
+    getDefaultTab() {
+        return this.page.getByText('Enjoy hassle free flight ticket bookings at lowest airfare')
+    }
+
+    getLoginSignUpBtn() {
+        return this.page.getByRole('button', { name: 'Log in / Sign up' })
+    }
 
 }

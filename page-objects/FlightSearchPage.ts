@@ -1,9 +1,8 @@
 import { Page } from '@playwright/test'
 
 export class FlightSearchPage {
-    readonly page: Page
 
-    constructor(page: Page) {
+    constructor(public readonly page: Page) {
         this.page = page;
     }
 
