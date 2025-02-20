@@ -12,6 +12,6 @@ test('Verify if Search Flights Tab is displayed', async ({ page, homePage }) => 
 })
 
 test('Verify if Login/Sign up btn is displayed in home page', async ({ homePage }) => {
-    expect(homePage.getLoginSignUpBtn()).toBeVisible()
+    await expect(homePage.getLoginSignUpBtn()).toBeVisible()
 })
 

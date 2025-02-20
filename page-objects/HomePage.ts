@@ -11,7 +11,7 @@ export class HomePage {
     }
 
     async closeIcon() {
-        await this.page.locator('[data-testid=closeIcon]').click({ delay: 200 })
+        await this.page.locator('[data-testid="closeIcon"]').click({ delay: 200 })
     }
 
     async getTitle() {

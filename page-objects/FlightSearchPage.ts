@@ -4,36 +4,37 @@ export class FlightSearchPage {
 
     constructor(public readonly page: Page) { }
 
-    async searchForFlights() {
+    async searchForRoundTripFlights() {
         let departureDate = new Date();
         departureDate.setDate(departureDate.getDate() + 10);
 
         let returnDate = new Date(departureDate);
         returnDate.setDate(departureDate.getDate() + 2);
 
-        await this.setSourceCity()
-        await this.setDestination()
+        await this.setSourceCity('Bangalore')
+        await this.setDestinationCity('Mumbai')
         await this.selectDepartureDate(departureDate);
         await this.selectReturnDate(returnDate);
-        await this.clickSearchFights()
-
+        return await this.clickSearchFights()
     }
 
-    async setSourceCity() {
-        await this.page.getByPlaceholder('Where from?').pressSequentially('Bangalore')
-        await this.page.getByText('Bangalore, IN - Kempegowda International Airport (BLR)').click()
+    async setSourceCity(sourceCity: string) {
+        await this.page.getByPlaceholder('Where from?').fill(sourceCity)
+        await this.page.locator('.field-1').getByRole('listitem').getByText(sourceCity).click()
     }
 
-    async setDestination() {
-        await this.page.getByPlaceholder('Where to?').pressSequentially('Mumbai')
-        await this.page.getByText('Mumbai, IN - Chatrapati Shivaji Airport (BOM)').click()
+    async setDestinationCity(destinationCity: string) {
+        await this.page.getByPlaceholder('Where to?').fill(destinationCity)
+        await this.page.locator('.field-2').getByRole('listitem').getByText(destinationCity).click()
     }
 
     async clickSearchFights() {
         await this.page.getByRole('button', { name: 'Search flights' }).click()
+        await this.page.waitForLoadState('networkidle')
+        return this.page.locator('button:has-text("Book")').first()
     }
 
-    private async selectDepartureDate(departureDate: Date) {
+    async selectDepartureDate(departureDate: Date) {
         const { datePanelTobeSelected, dateToAssert, expectedDate } = this.getDatesForValidation(departureDate);
         console.log(`Date panel for departure: ${datePanelTobeSelected}`);
         console.log(dateToAssert);
@@ -56,7 +57,7 @@ export class FlightSearchPage {
         await expect(departureDateLocator).toHaveText(dateToAssert);
     }
 
-    private async selectReturnDate(returnDate: Date) {
+    async selectReturnDate(returnDate: Date) {
         const { datePanelTobeSelected, dateToAssert, expectedDate } = this.getDatesForValidation(returnDate);
         console.log(`Date panel for return: ${datePanelTobeSelected}`);
         console.log(dateToAssert);
