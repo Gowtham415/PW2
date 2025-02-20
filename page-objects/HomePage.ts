@@ -1,17 +1,16 @@
 import { Page } from '@playwright/test'
+import { BasePage } from './BasePage';
 
-export class HomePage {
-
-    constructor(public readonly page: Page) {
-        this.page = page;
-    }
-
+export class HomePage extends BasePage {
+    
     async goToSite() {
         await this.page.goto('/', { waitUntil: 'networkidle' })
     }
 
     async closeIcon() {
-        await this.page.locator('[data-testid="closeIcon"]').click({ delay: 200 })
+        const closeIconLocator = this.page.locator('[data-testid="closeIcon"]');
+        await closeIconLocator.waitFor({ state: 'visible' });
+        await closeIconLocator.click();
     }
 
     async getTitle() {

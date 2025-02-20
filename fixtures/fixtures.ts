@@ -1,12 +1,13 @@
 import { test as base } from '@playwright/test'
 import { HomePage } from '../page-objects/HomePage'
 import { FlightSearchPage } from '../page-objects/FlightSearchPage'
-import { Console } from 'console'
+import { HotelsPage } from '../page-objects/HotelsPage'
 
 
 type Pages = {
     flightSearchPage: FlightSearchPage,
-    homePage: HomePage
+    homePage: HomePage,
+    hotelsPage:HotelsPage
 }
 
 type ForEachWorker = {
@@ -23,6 +24,11 @@ export const test = base.extend<Pages & ForEachWorker>({
     homePage: async ({ page }, use) => {
         const homePage = new HomePage(page);
         await use(homePage);
+    },
+
+    hotelsPage:async({page},use)=>{
+        const hotelsPage = new HotelsPage(page);
+        await use(hotelsPage)
     },
 
     forEachTest: [async ({ page }, use) => {
