@@ -1,5 +1,6 @@
 import { createLogger, format, transports } from 'winston';
-import { DateUtils } from './helpers/dateHelper';
+import 'winston-daily-rotate-file';
+
 
 const logger = createLogger({
     level: 'info',
@@ -10,8 +11,14 @@ const logger = createLogger({
         })
     ),
     transports: [
-        new transports.Console(), 
-        new transports.File({ filename: `logs/playwright-test-${DateUtils.currentDateTimeStamp}.log` }) 
+        new transports.DailyRotateFile({
+            filename: 'logs/application-%DATE%.log', // Log file name with date pattern
+            datePattern: 'YYYY-MM-DD', // Rotate daily
+            maxSize: '20m', // Maximum file size before rotation
+            maxFiles: '14d', // Keep logs for 14 days
+            zippedArchive: true // Optional: compress rotated files
+        }),
+        new transports.Console()
     ],
 });
 

@@ -1,0 +1,24 @@
+2025-02-21 22:03:59 [INFO] Starting test : Flight Search
+2025-02-21 22:03:59 [INFO] Starting test : Flight Search - Round Trip
+2025-02-21 22:03:59 [INFO] Starting test : One way Flight Search
+2025-02-21 22:03:59 [INFO] Starting test : Title Test
+2025-02-21 22:04:05 [INFO] Date panel for departure: March 2025
+2025-02-21 22:04:05 [INFO] Date to assert: Mon, Mar 3
+2025-02-21 22:04:05 [INFO] Date panel for departure: March 2025
+2025-02-21 22:04:05 [INFO] Date to assert: Mon, Mar 3
+2025-02-21 22:04:05 [INFO] Stopping test : Title Test
+2025-02-21 22:04:05 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-21 22:04:05 [INFO] Date panel for return: March 2025
+2025-02-21 22:04:05 [INFO] Wed, Mar 5
+2025-02-21 22:04:06 [INFO] Date panel for departure: March 2025
+2025-02-21 22:04:06 [INFO] Date to assert: Mon, Mar 3
+2025-02-21 22:04:07 [INFO] Date panel for return: March 2025
+2025-02-21 22:04:07 [INFO] Wed, Mar 5
+2025-02-21 22:04:10 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-21 22:04:10 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-21 22:04:11 [INFO] Stopping test : One way Flight Search
+2025-02-21 22:04:12 [INFO] Starting test : Hotels Tab
+2025-02-21 22:04:14 [INFO] Stopping test : Flight Search
+2025-02-21 22:04:15 [INFO] Stopping test : Flight Search - Round Trip
+2025-02-21 22:04:17 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-21 22:04:18 [INFO] Stopping test : Hotels Tab
