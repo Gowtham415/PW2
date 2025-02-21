@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { DateUtils } from './tests/helpers/dateHelper';
 
 /**
  * Read environment variables from file.
@@ -27,7 +28,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['monocart-reporter', {
-      outputFile: 'test-results/monocart-report.html'
+      outputFile: `test-results/monocart-report${DateUtils.currentDate}.html`
     }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -50,7 +51,9 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+      viewport: { width: 1080, height: 720 }
+      },
     },
 
     // {

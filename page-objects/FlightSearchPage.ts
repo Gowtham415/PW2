@@ -1,6 +1,7 @@
 import { Page, expect, Locator } from '@playwright/test'
 import { DateUtils } from '../tests/helpers/dateHelper';
 import { BasePage } from './BasePage';
+import {calendarLocators} from '../test-data/locators.json'
 
 export class FlightSearchPage extends BasePage{
 
@@ -39,8 +40,8 @@ export class FlightSearchPage extends BasePage{
         console.log(`Date panel for departure: ${datePanelTobeSelected}`);
         console.log(dateToAssert);
 
-        const departureDateLocator = this.page.locator('[class="flex flex-middle p-relative homeCalender"]')
-            .locator('[class="c-inherit flex flex-1 flex-nowrap fs-16 fw-500 card-price"]');
+        const departureDateLocator = this.page.locator(calendarLocators.departureDateLocator.locator)
+            .locator(calendarLocators.departureDateLocator.nestedLocator.locator);
 
         await departureDateLocator.click();
         this.setDateOfDepartureOrReturn(datePanelTobeSelected,dateToBeSet)

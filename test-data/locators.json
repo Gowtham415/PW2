@@ -1,0 +1,13 @@
+{
+    "homepage":{},
+    "flightsearchpage":{},
+    "hotelspage":{},
+    "calendarLocators":{
+        "departureDateLocator":{
+            "locator": "[class='flex flex-middle p-relative homeCalender']",
+            "nestedLocator": {
+              "locator": "[class='c-inherit flex flex-1 flex-nowrap fs-16 fw-500 card-price']"
+            }
+        }
+    }
+}

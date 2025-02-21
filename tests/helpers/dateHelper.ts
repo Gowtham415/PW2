@@ -1,11 +1,15 @@
 export class DateUtils {
 
-    static get futureDate():Date {
+    public static get futureDate():Date {
         let departureDate = new Date();
         departureDate.setDate(departureDate.getDate() + 10);
         return departureDate
     }
-    
+
+    public static get currentDate():string{   
+        return new Date().toISOString().replace('T', ' ').substring(0, 19);
+    }
+
     public static getDatesForValidation(dateOfSelection: Date): { datePanelTobeSelected: string; dateToAssert: string; dateToBeSet: string; } {
         const dateToBeSet = dateOfSelection.getDate().toString();
         const expectedMonthLong = dateOfSelection.toLocaleString('En-US', { month: 'long' });
