@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-import { DateUtils } from './helpers/dateHelper';
+import { DateUtils } from './helpers/dateUtils';
 
 /**
  * Read environment variables from file.
@@ -9,9 +9,6 @@ import { DateUtils } from './helpers/dateHelper';
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
 
-/**
- * See https://playwright.dev/docs/test-configuration.
- */
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
@@ -25,6 +22,7 @@ export default defineConfig({
   expect: {
     timeout: 6000
   },
+
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['monocart-reporter', {
@@ -39,11 +37,12 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
   use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://www.cleartrip.com/',
-
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-all-retries',
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+    video: 'on-first-retry',
+    viewport: { width: 1280, height: 720 }
 
   },
 
@@ -52,7 +51,7 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
-      viewport: { width: 1080, height: 720 }
+      viewport: { width: 1280, height: 720 }
       },
     },
 

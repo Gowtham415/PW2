@@ -1,5 +1,5 @@
 import { Page, expect, Locator } from '@playwright/test'
-import { DateUtils } from '../helpers/dateHelper';
+import { DateUtils } from '../helpers/dateUtils';
 import { BasePage } from './BasePage';
 import {calendarLocators} from '../test-data/locators.json'
 import logger from '../logger';
