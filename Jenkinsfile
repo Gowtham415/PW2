@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout the code from your GitHub repository
-                git url: 'https://github.com/<username>/<repository>.git', branch: 'main'
+                git url: 'https://github.com/Gowtham415/PW2.git', branch: 'main'
             }
         }
 
