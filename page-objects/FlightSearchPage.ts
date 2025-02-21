@@ -1,7 +1,8 @@
 import { Page, expect, Locator } from '@playwright/test'
-import { DateUtils } from '../tests/helpers/dateHelper';
+import { DateUtils } from '../helpers/dateHelper';
 import { BasePage } from './BasePage';
 import {calendarLocators} from '../test-data/locators.json'
+import logger from '../logger';
 
 export class FlightSearchPage extends BasePage{
 
@@ -37,8 +38,8 @@ export class FlightSearchPage extends BasePage{
 
     async selectDepartureDate(departureDate: Date): Promise<void> {
         const { datePanelTobeSelected, dateToAssert, dateToBeSet } = DateUtils.getDatesForValidation(departureDate);
-        console.log(`Date panel for departure: ${datePanelTobeSelected}`);
-        console.log(dateToAssert);
+        logger.info(`Date panel for departure: ${datePanelTobeSelected}`);
+        logger.info(`Date to assert: ${dateToAssert}`);
 
         const departureDateLocator = this.page.locator(calendarLocators.departureDateLocator.locator)
             .locator(calendarLocators.departureDateLocator.nestedLocator.locator);
@@ -50,8 +51,8 @@ export class FlightSearchPage extends BasePage{
 
     async selectReturnDate(returnDate: Date): Promise<void> {
         const { datePanelTobeSelected, dateToAssert, dateToBeSet } = DateUtils.getDatesForValidation(returnDate);
-        console.log(`Date panel for return: ${datePanelTobeSelected}`);
-        console.log(dateToAssert);
+        logger.info(`Date panel for return: ${datePanelTobeSelected}`);
+        logger.info(dateToAssert);
         const returnDateLocator = this.page.locator('[class=" c-neutral-400 flex flex-nowrap fs-16 fw-500"]').getByText('Return');
         await returnDateLocator.click();
         this.setDateOfDepartureOrReturn(datePanelTobeSelected,dateToBeSet);

@@ -2,6 +2,7 @@ import { test as base } from '@playwright/test'
 import { HomePage } from '../page-objects/HomePage'
 import { FlightSearchPage } from '../page-objects/FlightSearchPage'
 import { HotelsPage } from '../page-objects/HotelsPage'
+import logger from '../logger'
 
 
 type Pages = {
@@ -11,7 +12,6 @@ type Pages = {
 }
 
 type ForEachWorker = {
-    forEachWorker: void,
     forEachTest: void
 }
 
@@ -32,12 +32,12 @@ export const test = base.extend<Pages & ForEachWorker>({
     },
 
     forEachTest: [async ({ page }, use) => {
-        console.log(`Starting test : ${test.info().title}`);
+        logger.info(`Starting test : ${test.info().title}`);
         const homePage = new HomePage(page);
         await homePage.goToSite()
         await homePage.closeIcon()
         await use()
-        console.log(`Stopping test : ${test.info().title}`);
+        logger.info(`Stopping test : ${test.info().title}`);
     }, { auto: true }]
 })
 

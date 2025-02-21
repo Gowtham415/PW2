@@ -1,6 +1,6 @@
 import { expect } from 'playwright/test'
 import { test } from '../../fixtures/fixtures'
-import { DateUtils } from '../helpers/dateHelper'
+import { DateUtils } from '../../helpers/dateHelper'
 
 const DAYS_AFTER_DEPARTURE_DATE = 2;
 

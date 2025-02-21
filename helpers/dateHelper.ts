@@ -6,7 +6,7 @@ export class DateUtils {
         return departureDate
     }
 
-    public static get currentDate():string{   
+    public static get currentDateTimeStamp():string{   
         return new Date().toISOString().replace('T', ' ').substring(0, 19);
     }
 
