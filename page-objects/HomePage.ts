@@ -1,6 +1,5 @@
-import { Page } from '@playwright/test'
 import { BasePage } from './BasePage';
-import {homepage} from '../test-data/locators.json'
+import {homepage} from '@locators'
 
 export class HomePage extends BasePage {
     

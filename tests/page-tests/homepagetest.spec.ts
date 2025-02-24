@@ -1,6 +1,6 @@
 import { expect } from 'playwright/test'
-import { test } from '../../fixtures/fixtures'
-import {homepage} from '../../test-data/locators.json'
+import { test } from '@fixtures'
+import { homepage } from '@locators'
 
 const pageTitle = `${homepage.title}`
 

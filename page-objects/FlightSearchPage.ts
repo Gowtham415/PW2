@@ -1,9 +1,8 @@
 import { Page, expect, Locator } from '@playwright/test'
-import { DateUtils } from '../helpers/dateUtils';
+import { DateUtils } from '@utils/dateUtils'
 import { BasePage } from './BasePage';
-import {calendarLocators} from '../test-data/locators.json'
-import logger from '../logger';
-import {flightsearchpage} from '../test-data/locators.json'
+import { calendarLocators,flightsearchpage } from '@locators';
+import logger from '@logger';
 
 export class FlightSearchPage extends BasePage{
 

@@ -1,6 +1,6 @@
 import {expect, Locator, Page} from '@playwright/test'
 import { BasePage } from './BasePage'
-import {hotelspage} from '../test-data/locators.json'
+import {hotelspage} from '@locators'
 
 export class HotelsPage extends BasePage{
 
@@ -14,6 +14,10 @@ export class HotelsPage extends BasePage{
         this.page.locator(`${hotelspage.localityInput.popularDestinationsSuggestionsList}`).getByRole('list',{name:locality,exact:true}).click()
         const inputLocality = await this.page.getByLabel(`${hotelspage.localityInput.labelText}`).inputValue()
         expect(inputLocality).toContainEqual(locality)
+    }
+
+    get getHotelsSearchBtn(){
+        return this.page.getByRole('button',{name:hotelspage.searchHotelsBtnText});
     }
 
 }

@@ -1,10 +1,9 @@
-import { test as base } from '@playwright/test'
-import { HomePage } from '../page-objects/HomePage'
-import { FlightSearchPage } from '../page-objects/FlightSearchPage'
-import { HotelsPage } from '../page-objects/HotelsPage'
-import logger from '../logger'
-
-
+import { test as base, expect as baseExpect } from '@playwright/test';
+import { Locator } from '@playwright/test';
+import { FlightSearchPage } from '@pages/FlightSearchPage';
+import { HomePage } from '@pages/HomePage';
+import { HotelsPage } from '@pages/HotelsPage';
+import logger from '@logger';
 
 type Pages = {
     flightSearchPage: FlightSearchPage,
@@ -42,5 +41,73 @@ export const test = base.extend<Pages & ForEachWorker>({
     }, { auto: true }],
 
 })
+
+export const expect = baseExpect.extend({
+    async toHaveAmount(locator: Locator, expected: number, options?: { timeout?: number }) {
+      const assertionName = 'toHaveAmount';
+      let pass: boolean;
+      let matcherResult: any;
+  
+      try {
+        await baseExpect(locator).toHaveAttribute('data-amount', String(expected), options);
+        pass = true;
+      } catch (e: any) {
+        matcherResult = e.matcherResult;
+        pass = false;
+      }
+  
+      return {
+        pass,
+        message: () => `expected ${locator} to have amount ${expected}`,
+      };
+    },
+    async toHavePrice(locator: Locator, expected: number, options?: { timeout?: number }) {
+        const assertionName = 'toHavePrice';
+        let pass: boolean;
+        let matcherResult: any;
+    
+        try {
+          await baseExpect(locator).toHaveText(String(expected), options);
+          pass = true;
+        } catch (e: any) {
+          matcherResult = e.matcherResult;
+          pass = false;
+        }
+    
+        return {
+          pass,
+          message: () => `expected ${locator} to have price ${expected}`,
+        };
+      },
+
+      async toBeSearchButtonVisible(locator: Locator, options?: { timeout: number }) {
+        const assertionName = 'toBeSearchButtonVisible';
+        let pass: boolean;
+        let matcherResult: any;
+      
+        try {
+          await baseExpect(locator).toBeVisible(options);
+          pass = true;
+        } catch (e: any) {
+          matcherResult = e.matcherResult;
+          pass = false;
+        }
+      
+        return {
+          pass,
+          message: () => {
+            if (pass) {
+              return `Search button is visible`;
+            } else {
+              return `expected search button to be visible, but it was not`;
+            }
+          },
+        };
+      }
+      
+  });
+  
+
+
 
 

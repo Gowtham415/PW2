@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "paths": {
+            "@pages/*":["page-objects/*"],
+            "@utils/*":["helpers/*"],
+            "@fixtures":["fixtures/fixtures.ts"],
+            "@locators":["test-data/locators.json"],
+            "@logger":["logger.ts"]
+        }
+    }
+}

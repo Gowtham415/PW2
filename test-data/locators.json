@@ -27,7 +27,8 @@
         "localityInput":{
             "labelText":"Enter locality, landmark, city or hotel",
             "popularDestinationsSuggestionsList":"#modify_search_list_container_id"
-        }
+        },
+        "searchHotelsBtnText":"Search hotels"
     },
     "calendarLocators":{
         "departureDateLocator":{
