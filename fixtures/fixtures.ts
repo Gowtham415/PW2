@@ -43,24 +43,7 @@ export const test = base.extend<Pages & ForEachWorker>({
 })
 
 export const expect = baseExpect.extend({
-    async toHaveAmount(locator: Locator, expected: number, options?: { timeout?: number }) {
-      const assertionName = 'toHaveAmount';
-      let pass: boolean;
-      let matcherResult: any;
-  
-      try {
-        await baseExpect(locator).toHaveAttribute('data-amount', String(expected), options);
-        pass = true;
-      } catch (e: any) {
-        matcherResult = e.matcherResult;
-        pass = false;
-      }
-  
-      return {
-        pass,
-        message: () => `expected ${locator} to have amount ${expected}`,
-      };
-    },
+    
     async toHavePrice(locator: Locator, expected: number, options?: { timeout?: number }) {
         const assertionName = 'toHavePrice';
         let pass: boolean;
@@ -80,7 +63,7 @@ export const expect = baseExpect.extend({
         };
       },
 
-      async toBeSearchButtonVisible(locator: Locator, options?: { timeout: number }) {
+      async searchButtonToBeVisible(locator: Locator, options?: { timeout: number }) {
         const assertionName = 'toBeSearchButtonVisible';
         let pass: boolean;
         let matcherResult: any;

@@ -7,7 +7,8 @@
             "@utils/*":["helpers/*"],
             "@fixtures":["fixtures/fixtures.ts"],
             "@locators":["test-data/locators.json"],
-            "@logger":["logger.ts"]
+            "@logger":["logger.ts"],
+            "@data/*":["test-data/*"]
         }
     }
 }

@@ -581,3 +581,156 @@
 2025-02-24 17:07:02 [INFO] Date to assert: Thu, Mar 6
 2025-02-24 17:07:06 [INFO] Stopping test :  Search button is visible
 2025-02-24 17:07:08 [INFO] Stopping test : One way Flight Search
+2025-02-24 17:09:28 [INFO] Starting test : Flight Search - Round Trip
+2025-02-24 17:09:28 [INFO] Starting test : Flight Search
+2025-02-24 17:09:28 [INFO] Starting test : One way Flight Search
+2025-02-24 17:09:28 [INFO] Starting test : Title Test
+2025-02-24 17:09:36 [INFO] Stopping test : Title Test
+2025-02-24 17:09:36 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-24 17:09:37 [INFO] Date panel for departure: March 2025
+2025-02-24 17:09:37 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:09:38 [INFO] Date panel for departure: March 2025
+2025-02-24 17:09:38 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:09:38 [INFO] Date panel for return: March 2025
+2025-02-24 17:09:38 [INFO] Sat, Mar 8
+2025-02-24 17:09:40 [INFO] Date panel for departure: March 2025
+2025-02-24 17:09:40 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:09:40 [INFO] Date panel for return: March 2025
+2025-02-24 17:09:40 [INFO] Sat, Mar 8
+2025-02-24 17:09:41 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-24 17:09:41 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:09:45 [INFO] Stopping test : One way Flight Search
+2025-02-24 17:09:45 [INFO] Starting test : Hotels Tab
+2025-02-24 17:09:46 [INFO] Stopping test : Flight Search - Round Trip
+2025-02-24 17:09:47 [INFO] Starting test :  Search button is visible
+2025-02-24 17:09:48 [INFO] Stopping test : Flight Search
+2025-02-24 17:09:49 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:09:51 [INFO] Stopping test : Hotels Tab
+2025-02-24 17:09:53 [INFO] Stopping test :  Search button is visible
+2025-02-24 17:15:13 [INFO] Starting test : Title Test
+2025-02-24 17:15:13 [INFO] Starting test : Flight Search - Round Trip
+2025-02-24 17:15:13 [INFO] Starting test : Flight Search
+2025-02-24 17:15:13 [INFO] Starting test : One way Flight Search
+2025-02-24 17:15:21 [INFO] Date panel for departure: March 2025
+2025-02-24 17:15:21 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:15:21 [INFO] Date panel for return: March 2025
+2025-02-24 17:15:21 [INFO] Sat, Mar 8
+2025-02-24 17:15:22 [INFO] Date panel for departure: March 2025
+2025-02-24 17:15:22 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:15:22 [INFO] Date panel for departure: March 2025
+2025-02-24 17:15:22 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:15:22 [INFO] Date panel for return: March 2025
+2025-02-24 17:15:22 [INFO] Sat, Mar 8
+2025-02-24 17:15:23 [INFO] Stopping test : Title Test
+2025-02-24 17:15:25 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-24 17:15:26 [INFO] Stopping test : Flight Search
+2025-02-24 17:15:26 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:15:28 [INFO] Stopping test : One way Flight Search
+2025-02-24 17:15:28 [INFO] Starting test : Hotels Tab
+2025-02-24 17:15:29 [INFO] Stopping test : Flight Search - Round Trip
+2025-02-24 17:15:29 [INFO] Starting test :  Search button is visible
+2025-02-24 17:15:30 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:15:31 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-24 17:15:34 [INFO] Stopping test : Hotels Tab
+2025-02-24 17:15:34 [INFO] Stopping test :  Search button is visible
+2025-02-24 17:28:07 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-24 17:28:07 [INFO] Starting test : One way Flight Search
+2025-02-24 17:28:07 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-24 17:28:07 [INFO] Starting test : Flight Search
+2025-02-24 17:28:20 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:20 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:21 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:21 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:21 [INFO] Date panel for return: March 2025
+2025-02-24 17:28:21 [INFO] Sat, Mar 8
+2025-02-24 17:28:22 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:22 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:23 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:23 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:30 [INFO] Stopping test : One way Flight Search
+2025-02-24 17:28:30 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-24 17:28:31 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-24 17:28:31 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-24 17:28:32 [INFO] Stopping test : Flight Search
+2025-02-24 17:28:32 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-24 17:28:32 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-24 17:28:32 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-24 17:28:38 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:38 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:42 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:42 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:42 [INFO] Date panel for departure: March 2025
+2025-02-24 17:28:42 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:28:42 [INFO] Date panel for return: March 2025
+2025-02-24 17:28:42 [INFO] Sat, Mar 8
+2025-02-24 17:28:42 [INFO] Date panel for return: March 2025
+2025-02-24 17:28:42 [INFO] Sat, Mar 8
+2025-02-24 17:28:47 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-24 17:28:47 [INFO] Starting test : Title Test
+2025-02-24 17:28:51 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-24 17:28:51 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-24 17:28:51 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-24 17:28:51 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:28:55 [INFO] Stopping test : Title Test
+2025-02-24 17:28:55 [INFO] Starting test : Hotels Tab
+2025-02-24 17:29:00 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:29:00 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-24 17:29:00 [INFO] Starting test :  Search button is visible
+2025-02-24 17:29:02 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-24 17:29:06 [INFO] Stopping test : Hotels Tab
+2025-02-24 17:29:08 [INFO] Stopping test :  Search button is visible
+2025-02-24 17:29:13 [INFO] Date panel for departure: March 2025
+2025-02-24 17:29:13 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:29:14 [INFO] Date panel for return: March 2025
+2025-02-24 17:29:14 [INFO] Sat, Mar 8
+2025-02-24 17:29:22 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-24 17:37:48 [INFO] Starting test : Flight Search
+2025-02-24 17:37:48 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-24 17:37:48 [INFO] Starting test : One way Flight Search
+2025-02-24 17:37:48 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-24 17:37:55 [INFO] Date panel for departure: March 2025
+2025-02-24 17:37:55 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:37:55 [INFO] Date panel for departure: March 2025
+2025-02-24 17:37:55 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:37:56 [INFO] Date panel for return: March 2025
+2025-02-24 17:37:56 [INFO] Sat, Mar 8
+2025-02-24 17:37:56 [INFO] Date panel for departure: March 2025
+2025-02-24 17:37:56 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:37:56 [INFO] Date panel for departure: March 2025
+2025-02-24 17:37:56 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:38:03 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-24 17:38:03 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-24 17:38:03 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-24 17:38:03 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-24 17:38:09 [INFO] Stopping test : Flight Search
+2025-02-24 17:38:09 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-24 17:38:10 [INFO] Stopping test : One way Flight Search
+2025-02-24 17:38:10 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-24 17:38:14 [INFO] Date panel for departure: March 2025
+2025-02-24 17:38:14 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:38:15 [INFO] Date panel for departure: March 2025
+2025-02-24 17:38:15 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:38:16 [INFO] Date panel for return: March 2025
+2025-02-24 17:38:16 [INFO] Sat, Mar 8
+2025-02-24 17:38:19 [INFO] Date panel for departure: March 2025
+2025-02-24 17:38:19 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:38:20 [INFO] Date panel for return: March 2025
+2025-02-24 17:38:20 [INFO] Sat, Mar 8
+2025-02-24 17:38:21 [INFO] Date panel for departure: March 2025
+2025-02-24 17:38:21 [INFO] Date to assert: Thu, Mar 6
+2025-02-24 17:38:21 [INFO] Date panel for return: March 2025
+2025-02-24 17:38:21 [INFO] Sat, Mar 8
+2025-02-24 17:38:22 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-24 17:38:22 [INFO] Starting test : Title Test
+2025-02-24 17:38:23 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-24 17:38:24 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-24 17:38:28 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-24 17:38:28 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:38:28 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-24 17:38:29 [INFO] Starting test : Hotels Tab
+2025-02-24 17:38:29 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-24 17:38:29 [INFO] Starting test :  Search button is visible
+2025-02-24 17:38:32 [INFO] Stopping test : Title Test
+2025-02-24 17:38:34 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-24 17:38:36 [INFO] Stopping test : Hotels Tab
+2025-02-24 17:38:38 [INFO] Stopping test :  Search button is visible

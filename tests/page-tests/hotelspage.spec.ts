@@ -7,5 +7,5 @@ test('Hotels Tab', async ({hotelsPage})=>{
 
 test(' Search button is visible',async ({hotelsPage})=>{
     await hotelsPage.goToPage()
-    await expect(hotelsPage.getHotelsSearchBtn).toBeSearchButtonVisible();
+    await expect(hotelsPage.getHotelsSearchBtn).searchButtonToBeVisible();
 })
