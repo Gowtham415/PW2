@@ -3,6 +3,7 @@ import { HomePage } from '../page-objects/HomePage'
 import { FlightSearchPage } from '../page-objects/FlightSearchPage'
 import { HotelsPage } from '../page-objects/HotelsPage'
 import logger from '../logger'
+import fs from 'fs-extra';
 
 
 type Pages = {
@@ -35,8 +36,13 @@ export const test = base.extend<Pages & ForEachWorker>({
         logger.info(`Starting test : ${test.info().title}`);
         const homePage = new HomePage(page);
         await homePage.goToSite()
-        await homePage.closeIcon()
+        await homePage.closeDefaultTab()
         await use()
+        const sourceDir = './test-results';
+        const targetDir = './monocart-reports-archive';
+        
+        // Copy test results to a persistent directory
+        await fs.copy(sourceDir, targetDir);
         logger.info(`Stopping test : ${test.info().title}`);
     }, { auto: true }]
 })

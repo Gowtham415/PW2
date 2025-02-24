@@ -26,6 +26,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['monocart-reporter', {
+      name:"Clear Trip Test Report",
       outputFile: `test-results/monocart-report-${DateUtils.currentDateTimeStamp}.html`
     }]
   ],

@@ -1,13 +1,43 @@
 {
-    "homepage":{},
-    "flightsearchpage":{},
-    "hotelspage":{},
+    "homepage":{
+        "title":"Cleartrip: #1 Site for Booking Flights Tickets & Hotels Online - Get Best Travel Deals",
+        "closeDialogIcon":"[data-testid=\"closeIcon\"]",
+        "loginSignUpBtn":{
+            "buttonText":"Log in / Sign up"
+        },
+        "defaultTabText":"Enjoy hassle free flight ticket bookings at lowest airfare"
+    },
+    "flightsearchpage":{
+        "searchFlightsSubmitBtnText":"Search flights",
+        "sourceCity":{
+            "placeholderText":"Where from?",
+            "citySuggestionListClass":".field-1"
+        },
+        "destinationCity":{
+            "placeholderText":"Where to?",
+            "citySuggestionListClass":".field-2"
+        },
+        "searchResultsPage":{
+            "bookBtn":"button:has-text(\"Book\")"
+        }
+    },
+    "hotelspage":{
+        "hotelsTabName":"Hotels",
+        "hotelsTabText":"Enjoy hassle free bookings with Cleartrip",
+        "localityInput":{
+            "labelText":"Enter locality, landmark, city or hotel",
+            "popularDestinationsSuggestionsList":"#modify_search_list_container_id"
+        }
+    },
     "calendarLocators":{
         "departureDateLocator":{
-            "locator": "[class='flex flex-middle p-relative homeCalender']",
-            "nestedLocator": {
-              "locator": "[class='c-inherit flex flex-1 flex-nowrap fs-16 fw-500 card-price']"
-            }
+            "calenderInputField": "[class='flex flex-middle p-relative homeCalender']",
+            "calendarCard": "[class='c-inherit flex flex-1 flex-nowrap fs-16 fw-500 card-price']"
+        },
+        "returnDateLocator":{
+            "returnDate":"[class=' c-neutral-400 flex flex-nowrap fs-16 fw-500']",
+            "visibleText":"Return",
+            "returnDateValueAfterSelection":"[class='c-inherit flex flex-1 flex-nowrap fs-16 fw-500 card-price']"
         }
     }
 }

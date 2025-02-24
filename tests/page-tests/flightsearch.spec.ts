@@ -4,12 +4,12 @@ import { DateUtils } from '../../helpers/dateUtils'
 
 const DAYS_AFTER_DEPARTURE_DATE = 2;
 
-test('Flight Search', { tag: ['@smoke'] }, async ({ flightSearchPage, page }) => {
+test('Flight Search', { tag: ['@smoke'] }, async ({ flightSearchPage }) => {
     const flightsToBook = await flightSearchPage.searchForRoundTripFlights()
     await expect(flightsToBook).toBeVisible()
 })
 
-test('One way Flight Search', { tag: ['@regression'] }, async ({ flightSearchPage, page }) => {
+test('One way Flight Search', { tag: ['@regression'] }, async ({ flightSearchPage }) => {
     await flightSearchPage.setSourceCity('Hyderabad')
     await flightSearchPage.setDestinationCity('Chennai')
     await flightSearchPage.selectDepartureDate(DateUtils.futureDate)
@@ -17,7 +17,7 @@ test('One way Flight Search', { tag: ['@regression'] }, async ({ flightSearchPag
     await expect(flightsToBook).toBeVisible();
 })
 
-test('Flight Search - Round Trip', { tag: ['@regression'] }, async ({ flightSearchPage, page }) => {
+test('Flight Search - Round Trip', { tag: ['@regression'] }, async ({ flightSearchPage }) => {
     await flightSearchPage.setSourceCity('Mumbai')
     await flightSearchPage.setDestinationCity('Pune')
     await flightSearchPage.selectDepartureDate(DateUtils.futureDate)
