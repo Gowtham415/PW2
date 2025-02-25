@@ -22,7 +22,8 @@ pipeline {
             steps {
                 script {
                     // Run the Docker container and mount the reports directory
-                    sh "docker run --rm -v \$(pwd)/test-reports:/app/test-reports playwright-docker"
+                    // sh "docker run --rm -v \$(pwd)/test-reports:/app/test-reports playwright-docker"
+                    sh "docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkins"
                 }
             }
         }
