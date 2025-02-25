@@ -1,45 +1,36 @@
 pipeline {
-    agent any
-
-    stages {
-        stage('Checkout Code') {
-            steps {
-                // Checkout the code from your GitHub repository
-                git url: 'https://github.com/Gowtham415/PW2.git', branch: 'main'
-            }
-        }
-
-        stage('Build Image') {
-            steps {
-                script {
-                    // Build the Docker image
-                    sh "docker build -t playwright-docker ."
-                }
-            }
-        }
-
-        stage('Run Tests') {
-            steps {
-                script {
-                    // Run the Docker container and mount the reports directory
-                    // sh "docker run --rm -v \$(pwd)/test-reports:/app/test-reports playwright-docker"
-                    sh "docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock --name jenkins jenkins"
-                }
-            }
-        }
-
-        stage('Archive Reports') {
-            steps {
-                // Archive test reports generated in the test-reports folder
-                archiveArtifacts artifacts: 'test-reports/**/*', fingerprint: true
-            }
-        }
+  agent { 
+    docker { 
+      image 'mcr.microsoft.com/playwright:v1.17.2-focal'
+    } 
+  }
+  stages {
+    stage('install playwright') {
+      steps {
+        sh '''
+          npm i -D @playwright/test
+          npx playwright install
+        '''
+      }
     }
-
-    post {
-        always {
-            // Clean up Docker images after the build
-            sh "docker rmi playwright-docker || true"
-        }
+    stage('help') {
+      steps {
+        sh 'npx playwright test --help'
+      }
     }
+    stage('test') {
+      steps {
+        sh '''
+          npx playwright test --list
+          npx playwright test
+        '''
+      }
+      post {
+        success {
+          archiveArtifacts(artifacts: 'homepage-*.png', followSymlinks: false)
+          sh 'rm -rf *.png'
+        }
+      }
+    }
+  }
 }
