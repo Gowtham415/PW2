@@ -1,0 +1,66 @@
+pipeline {
+    agent any
+    tools {
+        nodejs 'NodeJS_23.8.0'
+        git 'Default'
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+               git branch: 'main',
+                    url: 'https://github.com/Gowtham415/PW2.git'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                // Navigate to the cloned repository if necessary
+                    sh 'npm install'
+            }
+        }
+        stage('Run Playwright Tests') {
+            steps {
+                    sh 'npx playwright test --grep @smoke'
+            }
+        }
+        stage('Find Latest Report Folder') {
+            steps {
+                script {
+                    def latestReportDir = sh(
+                        script: "ls -td monocart-results/report*/ | head -1",
+                        returnStdout: true
+                    ).trim()
+                    env.REPORT_DIR = latestReportDir
+                    echo "Latest Report Directory: ${env.REPORT_DIR}"
+                }
+            }
+        }
+        stage('Archive Report') {  // ✅ Archive report so it can be accessed in Jenkins
+            steps {
+                script {
+                    archiveArtifacts artifacts: "${env.REPORT_DIR}/**/*", allowEmptyArchive: true
+                }
+            }
+        }
+        stage('Publish HTML Report') {
+            steps {
+                script {
+                    if (env.REPORT_DIR) {
+                        publishHTML(target: [
+                            allowMissing: false, 
+                            alwaysLinkToLastBuild: true,
+                            keepAll: true,
+                            reportDir: "${env.REPORT_DIR}", 
+                            reportFiles: 'monocart-report.html',  
+                            reportName: 'Test Report',
+                            includes: '**/*' 
+                        ])
+                    } else {
+                        echo "No report directory found!"
+                    }
+                }
+            }
+        }
+        
+    }
+}

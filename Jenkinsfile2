@@ -1,0 +1,55 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_IMAGE = 'playwright-test-image'
+        DOCKER_TAG = 'latest'
+        TEST_RESULTS_DIR = 'test-results' // Directory to store test results
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the source code from your repository
+                checkout scm
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                // Build the Docker image using the Dockerfile in the repository
+                script {
+                    docker.build("${DOCKER_IMAGE}:${DOCKER_TAG}", ".")
+                }
+            }
+        }
+
+        stage('Run Playwright Tests') {
+            steps {
+                // Create the test-results directory in the workspace if it doesn't exist
+                sh "mkdir -p ${TEST_RESULTS_DIR}"
+
+                // Run the Docker container with volume mapping for test-results
+                script {
+                    docker.image("${DOCKER_IMAGE}:${DOCKER_TAG}").run(
+                        "--rm", // Remove the container after execution
+                        "-v", "${WORKSPACE}/${TEST_RESULTS_DIR}:/app/${TEST_RESULTS_DIR}", // Volume mapping
+                        "--name", "playwright-test-container"
+                    )
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up the Docker image after the tests are done
+            script {
+                sh "docker rmi ${DOCKER_IMAGE}:${DOCKER_TAG} || true"
+            }
+
+            // Archive the test results (optional)
+            archiveArtifacts artifacts: "${TEST_RESULTS_DIR}/**/*", allowEmptyArchive: true
+        }
+    }
+}
