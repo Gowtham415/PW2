@@ -9,7 +9,7 @@ export interface CitiesData {
 
 interface TestData {
   id: number;
-  name: string;
+  name: string; 
   input: Record<string, any>;
   expected: Record<string, any>;
 }
@@ -24,7 +24,6 @@ export const readCsvNode = async (filePath: string): Promise<any> => {
     header: true,
     dynamicTyping: true,
   });
-
   return data;
 };
 
@@ -48,7 +47,6 @@ export function getCitiesArrayData(): CitiesData[] {
 
 export function loadTestData(filePath: string): TestDataFile {
   const fullPath = path.resolve(__dirname, filePath);
-  
   try {
     const data = fs.readFileSync(fullPath, 'utf-8');
     return JSON.parse(data) as TestDataFile;

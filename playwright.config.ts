@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-import { DateUtils } from './helpers/dateUtils';
+import { DateUtils } from '@utils/dateUtils';
 
 /**
  * Read environment variables from file.
@@ -43,8 +43,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'on-first-retry',
-    viewport: { width: 1280, height: 720 }
-
+    viewport: { width: 1280, height: 720 },
+    // storageState: 'state.json',
   },
 
   /* Configure projects for major browsers */
