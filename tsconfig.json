@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
         "baseUrl": ".",
         "resolveJsonModule": true,
         "paths": {

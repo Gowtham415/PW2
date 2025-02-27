@@ -1,0 +1,412 @@
+2025-02-27 10:00:27 [INFO] Starting test : Read CSV data
+2025-02-27 10:00:40 [INFO] Stopping test : Read CSV data
+2025-02-27 10:13:02 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:13:02 [INFO] Starting test : Flight Search
+2025-02-27 10:13:02 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:13:02 [INFO] Starting test : One way Flight Search
+2025-02-27 10:13:11 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:11 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:11 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:11 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:11 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:11 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:11 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:11 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:11 [INFO] Date panel for return: March 2025
+2025-02-27 10:13:11 [INFO] Tue, Mar 11
+2025-02-27 10:13:18 [INFO] Stopping test : Flight Search
+2025-02-27 10:13:20 [INFO] Stopping test : One way Flight Search
+2025-02-27 10:13:21 [INFO] Starting test : Flight Search
+2025-02-27 10:13:21 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:13:21 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:13:22 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:13:22 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:13:22 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:13:30 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:30 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:35 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:35 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:35 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:35 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:35 [INFO] Date panel for return: March 2025
+2025-02-27 10:13:35 [INFO] Tue, Mar 11
+2025-02-27 10:13:35 [INFO] Date panel for return: March 2025
+2025-02-27 10:13:35 [INFO] Tue, Mar 11
+2025-02-27 10:13:40 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:13:41 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:13:49 [INFO] Date panel for departure: March 2025
+2025-02-27 10:13:49 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:13:50 [INFO] Date panel for return: March 2025
+2025-02-27 10:13:50 [INFO] Tue, Mar 11
+2025-02-27 10:13:50 [INFO] Stopping test : Flight Search
+2025-02-27 10:13:52 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:13:52 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:13:54 [INFO] Starting test : Title Test
+2025-02-27 10:13:54 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:13:54 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:14:02 [INFO] Stopping test : Title Test
+2025-02-27 10:14:03 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 10:14:04 [INFO] Date panel for departure: March 2025
+2025-02-27 10:14:04 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:14:05 [INFO] Date panel for return: March 2025
+2025-02-27 10:14:05 [INFO] Tue, Mar 11
+2025-02-27 10:14:05 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:14:05 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:14:08 [INFO] Date panel for departure: March 2025
+2025-02-27 10:14:08 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:14:13 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-27 10:14:14 [INFO] Starting test : Hotels Tab
+2025-02-27 10:14:15 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:14:15 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:14:17 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:14:18 [INFO] Starting test :  Search button is visible
+2025-02-27 10:14:24 [INFO] Stopping test : Hotels Tab
+2025-02-27 10:14:30 [INFO] Stopping test :  Search button is visible
+2025-02-27 10:43:00 [INFO] Starting test : Flight Search
+2025-02-27 10:43:00 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:43:00 [INFO] Starting test : One way Flight Search
+2025-02-27 10:43:00 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:43:09 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:09 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:09 [INFO] Date panel for return: March 2025
+2025-02-27 10:43:09 [INFO] Tue, Mar 11
+2025-02-27 10:43:11 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:11 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:13 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:13 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:19 [INFO] Stopping test : One way Flight Search
+2025-02-27 10:43:20 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:43:22 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:43:22 [INFO] Stopping test : Flight Search
+2025-02-27 10:43:22 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:43:22 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:43:32 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:32 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:32 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:43:32 [INFO] Date panel for return: March 2025
+2025-02-27 10:43:32 [INFO] Tue, Mar 11
+2025-02-27 10:43:36 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:36 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:36 [INFO] Date panel for return: March 2025
+2025-02-27 10:43:36 [INFO] Tue, Mar 11
+2025-02-27 10:43:41 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:41 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:44 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:43:45 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:43:46 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:43:47 [INFO] Starting test : Title Test
+2025-02-27 10:43:49 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:43:51 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 10:43:52 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:43:55 [INFO] Date panel for departure: March 2025
+2025-02-27 10:43:55 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:43:55 [INFO] Date panel for return: March 2025
+2025-02-27 10:43:55 [INFO] Tue, Mar 11
+2025-02-27 10:43:58 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-27 10:43:59 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:44:01 [INFO] Date panel for departure: March 2025
+2025-02-27 10:44:01 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:44:04 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:44:04 [INFO] Starting test : Hotels Tab
+2025-02-27 10:44:07 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:44:07 [INFO] Starting test :  Search button is visible
+2025-02-27 10:44:12 [INFO] Stopping test : Hotels Tab
+2025-02-27 10:44:12 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:44:16 [INFO] Stopping test :  Search button is visible
+2025-02-27 10:44:17 [INFO] Starting test : Title Test
+2025-02-27 10:44:24 [INFO] Stopping test : Title Test
+2025-02-27 10:46:37 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:46:37 [INFO] Starting test : One way Flight Search
+2025-02-27 10:46:37 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:46:37 [INFO] Starting test : Flight Search
+2025-02-27 10:46:46 [INFO] Date panel for departure: March 2025
+2025-02-27 10:46:46 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:46:46 [INFO] Date panel for departure: March 2025
+2025-02-27 10:46:46 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:46:48 [INFO] Date panel for departure: March 2025
+2025-02-27 10:46:48 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:46:48 [INFO] Date panel for departure: March 2025
+2025-02-27 10:46:48 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:46:48 [INFO] Date panel for return: March 2025
+2025-02-27 10:46:48 [INFO] Tue, Mar 11
+2025-02-27 10:46:55 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:46:55 [INFO] Stopping test : One way Flight Search
+2025-02-27 10:46:56 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:46:56 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:46:57 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:46:58 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:46:58 [INFO] Stopping test : Flight Search
+2025-02-27 10:46:59 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:47:28 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:47:28 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:47:29 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:47:30 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:48:00 [INFO] Starting test : Title Test
+2025-02-27 10:48:00 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 10:48:02 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:48:06 [INFO] Starting test : Hotels Tab
+2025-02-27 10:48:08 [INFO] Stopping test : Title Test
+2025-02-27 10:48:08 [INFO] Starting test :  Search button is visible
+2025-02-27 10:48:10 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-27 10:48:12 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:48:17 [INFO] Stopping test :  Search button is visible
+2025-02-27 10:48:20 [INFO] Stopping test : Hotels Tab
+2025-02-27 10:53:24 [INFO] Cities data from CSV file:
+2025-02-27 10:53:24 [INFO] Cities data from CSV file:
+2025-02-27 10:53:24 [INFO] Cities data from CSV file:
+2025-02-27 10:53:24 [INFO] Cities data from CSV file:
+2025-02-27 10:53:24 [INFO] Cities data from CSV file:
+2025-02-27 10:53:27 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:53:27 [INFO] Starting test : One way Flight Search
+2025-02-27 10:53:27 [INFO] Starting test : Flight Search
+2025-02-27 10:53:27 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:53:37 [INFO] Date panel for departure: March 2025
+2025-02-27 10:53:37 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:53:39 [INFO] Date panel for departure: March 2025
+2025-02-27 10:53:39 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:53:42 [INFO] Date panel for departure: March 2025
+2025-02-27 10:53:42 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:53:47 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 10:53:47 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 10:53:47 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:53:48 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:53:52 [INFO] Stopping test : One way Flight Search
+2025-02-27 10:53:52 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:53:53 [INFO] Cities data from CSV file:
+2025-02-27 10:53:55 [INFO] Date panel for departure: March 2025
+2025-02-27 10:53:55 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:53:56 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:53:59 [INFO] Cities data from CSV file:
+2025-02-27 10:54:00 [INFO] Starting test : Flight Search
+2025-02-27 10:54:02 [INFO] Date panel for departure: March 2025
+2025-02-27 10:54:02 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:54:03 [INFO] Date panel for return: March 2025
+2025-02-27 10:54:03 [INFO] Tue, Mar 11
+2025-02-27 10:54:05 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 10:54:06 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:54:07 [INFO] Date panel for departure: March 2025
+2025-02-27 10:54:07 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:54:07 [INFO] Date panel for return: March 2025
+2025-02-27 10:54:07 [INFO] Tue, Mar 11
+2025-02-27 10:54:14 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 10:54:15 [INFO] Date panel for departure: March 2025
+2025-02-27 10:54:15 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 10:54:15 [INFO] Date panel for return: March 2025
+2025-02-27 10:54:15 [INFO] Tue, Mar 11
+2025-02-27 10:54:15 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 10:54:16 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 10:54:18 [INFO] Starting test : Title Test
+2025-02-27 10:54:23 [INFO] Starting test : Title Test
+2025-02-27 10:54:26 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 10:54:26 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:54:27 [INFO] Cities data from CSV file:
+2025-02-27 10:54:28 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:54:28 [INFO] Starting test : Hotels Tab
+2025-02-27 10:54:28 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 10:54:30 [INFO] Starting test :  Search button is visible
+2025-02-27 10:54:33 [INFO] Starting test :  Search button is visible
+2025-02-27 10:54:34 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 10:54:34 [INFO] Starting test : Hotels Tab
+2025-02-27 10:56:14 [INFO] Cities data from CSV file:
+2025-02-27 10:56:51 [INFO] Cities data from CSV file:
+2025-02-27 10:59:55 [INFO] Cities data from CSV file:
+2025-02-27 11:01:55 [INFO] Cities data from CSV file:
+2025-02-27 11:03:08 [INFO] Cities data from CSV file:
+2025-02-27 11:03:35 [INFO] Cities data from CSV file:
+2025-02-27 11:03:52 [INFO] Cities data from CSV file:
+2025-02-27 11:07:19 [INFO] Cities data from CSV file:
+2025-02-27 11:07:19 [INFO] Cities data from CSV file:
+2025-02-27 11:07:32 [INFO] Cities data from CSV file:
+2025-02-27 11:07:32 [INFO] Cities data from CSV file:
+2025-02-27 11:07:51 [INFO] Cities data from CSV file:
+2025-02-27 11:07:51 [INFO] Cities data from CSV file:
+2025-02-27 11:09:11 [INFO] Cities data from CSV file:
+2025-02-27 11:09:12 [INFO] Cities data from CSV file:
+2025-02-27 11:09:12 [INFO] Cities data from CSV file:
+2025-02-27 11:09:13 [INFO] Cities data from CSV file:
+2025-02-27 11:09:13 [INFO] Cities data from CSV file:
+2025-02-27 11:09:17 [INFO] Cities data from CSV file:
+2025-02-27 11:09:17 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:18 [INFO] Cities data from CSV file:
+2025-02-27 11:09:21 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:09:21 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 11:09:21 [INFO] Starting test : One way Flight Search
+2025-02-27 11:09:21 [INFO] Starting test : Flight Search
+2025-02-27 11:09:31 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:31 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:33 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:33 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:35 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:35 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:36 [INFO] Date panel for return: March 2025
+2025-02-27 11:09:36 [INFO] Tue, Mar 11
+2025-02-27 11:09:36 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:36 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:40 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 11:09:41 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 11:09:41 [INFO] Stopping test : One way Flight Search
+2025-02-27 11:09:42 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:09:43 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:09:44 [INFO] Cities data from CSV file:
+2025-02-27 11:09:44 [INFO] Cities data from CSV file:
+2025-02-27 11:09:46 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:09:47 [INFO] Stopping test : Flight Search
+2025-02-27 11:09:48 [INFO] Cities data from CSV file:
+2025-02-27 11:09:48 [INFO] Cities data from CSV file:
+2025-02-27 11:09:49 [INFO] Starting test : Flight Search
+2025-02-27 11:09:53 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:53 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:53 [INFO] Date panel for return: March 2025
+2025-02-27 11:09:53 [INFO] Tue, Mar 11
+2025-02-27 11:09:54 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:54 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:57 [INFO] Date panel for departure: March 2025
+2025-02-27 11:09:57 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:09:57 [INFO] Date panel for return: March 2025
+2025-02-27 11:09:57 [INFO] Tue, Mar 11
+2025-02-27 11:10:07 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:10:08 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:10:08 [INFO] Cities data from CSV file:
+2025-02-27 11:10:08 [INFO] Cities data from CSV file:
+2025-02-27 11:10:08 [INFO] Cities data from CSV file:
+2025-02-27 11:10:08 [INFO] Cities data from CSV file:
+2025-02-27 11:10:09 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 11:10:09 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:10:10 [INFO] Stopping test : Flight Search
+2025-02-27 11:10:11 [INFO] Cities data from CSV file:
+2025-02-27 11:10:11 [INFO] Cities data from CSV file:
+2025-02-27 11:10:12 [INFO] Cities data from CSV file:
+2025-02-27 11:10:12 [INFO] Cities data from CSV file:
+2025-02-27 11:10:13 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 11:10:13 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 11:10:21 [INFO] Date panel for departure: March 2025
+2025-02-27 11:10:21 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:10:22 [INFO] Date panel for departure: March 2025
+2025-02-27 11:10:22 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:10:22 [INFO] Date panel for return: March 2025
+2025-02-27 11:10:22 [INFO] Tue, Mar 11
+2025-02-27 11:10:33 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 11:10:34 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:10:36 [INFO] Starting test : Title Test
+2025-02-27 11:10:36 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 11:10:40 [INFO] Cities data from CSV file:
+2025-02-27 11:10:40 [INFO] Cities data from CSV file:
+2025-02-27 11:10:41 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 11:10:42 [INFO] Stopping test : Verify if Search Flights Tab is displayed
+2025-02-27 11:10:43 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 11:10:43 [INFO] Cities data from CSV file:
+2025-02-27 11:10:43 [INFO] Cities data from CSV file:
+2025-02-27 11:10:45 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 11:10:46 [INFO] Stopping test : Title Test
+2025-02-27 11:10:47 [INFO] Starting test : Hotels Tab
+2025-02-27 11:10:51 [INFO] Stopping test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 11:10:51 [INFO] Starting test :  Search button is visible
+2025-02-27 11:10:52 [INFO] Date panel for departure: March 2025
+2025-02-27 11:10:52 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:10:52 [INFO] Date panel for return: March 2025
+2025-02-27 11:10:52 [INFO] Tue, Mar 11
+2025-02-27 11:10:54 [INFO] Date panel for departure: March 2025
+2025-02-27 11:10:54 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:10:55 [INFO] Date panel for return: March 2025
+2025-02-27 11:10:55 [INFO] Tue, Mar 11
+2025-02-27 11:10:57 [INFO] Stopping test : Hotels Tab
+2025-02-27 11:11:00 [INFO] Stopping test :  Search button is visible
+2025-02-27 11:11:02 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 11:11:04 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 11:36:40 [INFO] Starting test : One way Flight Search
+2025-02-27 11:36:40 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 11:36:40 [INFO] Starting test : Flight Search
+2025-02-27 11:36:40 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:36:57 [INFO] Date panel for departure: March 2025
+2025-02-27 11:36:57 [INFO] Date panel for departure: March 2025
+2025-02-27 11:36:57 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:36:57 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:36:58 [INFO] Date panel for return: March 2025
+2025-02-27 11:36:58 [INFO] Tue, Mar 11
+2025-02-27 11:36:58 [INFO] Date panel for departure: March 2025
+2025-02-27 11:36:58 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:01 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:01 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:09 [INFO] Stopping test : One way Flight Search
+2025-02-27 11:37:09 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 11:37:09 [INFO] Stopping test : Flight Search
+2025-02-27 11:37:09 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:37:09 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 11:37:12 [INFO] Starting test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 11:37:12 [INFO] Starting test : Flight Search
+2025-02-27 11:37:12 [INFO] Starting test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:37:21 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:21 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:21 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:21 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:21 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:21 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:22 [INFO] Date panel for return: March 2025
+2025-02-27 11:37:22 [INFO] Tue, Mar 11
+2025-02-27 11:37:29 [INFO] Stopping test : Flight Search
+2025-02-27 11:37:30 [INFO] Stopping test : One way Flight Search from Delhi to Bangalore
+2025-02-27 11:37:31 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:37:32 [INFO] Starting test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 11:37:40 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:40 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:40 [INFO] Date panel for return: March 2025
+2025-02-27 11:37:40 [INFO] Tue, Mar 11
+2025-02-27 11:37:41 [INFO] Starting test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 11:37:42 [INFO] Stopping test : One way Flight Search from Hyderabad to Chennai
+2025-02-27 11:37:46 [INFO] Starting test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 11:37:48 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:48 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:49 [INFO] Stopping test : Flight Search - Round Trip from Delhi to Bangalore
+2025-02-27 11:37:50 [INFO] Starting test : One way Flight Search using CSV data from Mumbai to Pune
+2025-02-27 11:37:55 [INFO] Stopping test : One way Flight Search from Kolkata to Mumbai
+2025-02-27 11:37:56 [INFO] Date panel for departure: March 2025
+2025-02-27 11:37:56 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:37:57 [INFO] Starting test : One way Flight Search using CSV data from Delhi to Hyderabad
+2025-02-27 11:37:57 [INFO] Date panel for return: March 2025
+2025-02-27 11:37:57 [INFO] Tue, Mar 11
+2025-02-27 11:38:01 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:38:04 [INFO] Starting test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:38:09 [INFO] Stopping test : Flight Search - Round Trip from Kolkata to Mumbai
+2025-02-27 11:38:09 [INFO] Starting test : One way Flight Search using CSV data from Kolkata to Ahmedabad
+2025-02-27 11:38:16 [INFO] Date panel for departure: March 2025
+2025-02-27 11:38:16 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:38:16 [INFO] Date panel for return: March 2025
+2025-02-27 11:38:16 [INFO] Tue, Mar 11
+2025-02-27 11:38:19 [INFO] Date panel for departure: March 2025
+2025-02-27 11:38:19 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:38:20 [INFO] Stopping test : One way Flight Search using CSV data from Mumbai to Pune
+2025-02-27 11:38:22 [INFO] Starting test : One way Flight Search using CSV data from Mumbai to Pune
+2025-02-27 11:38:23 [INFO] Stopping test : Flight Search - Round Trip from Hyderabad to Chennai
+2025-02-27 11:38:25 [INFO] Starting test : One way Flight Search using CSV data from Chennai to Jaipur
+2025-02-27 11:38:28 [INFO] Stopping test : One way Flight Search using CSV data from Kolkata to Ahmedabad
+2025-02-27 11:38:28 [INFO] Starting test : One way Flight Search using CSV data from Bangalore to Lucknow
+2025-02-27 11:38:29 [INFO] Starting test : One way Flight Search using CSV data from Delhi to Hyderabad
+2025-02-27 11:38:32 [INFO] Date panel for departure: March 2025
+2025-02-27 11:38:32 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:38:40 [INFO] Date panel for departure: March 2025
+2025-02-27 11:38:40 [INFO] Date to assert: Sun, Mar 9
+2025-02-27 11:38:49 [INFO] Stopping test : One way Flight Search using CSV data from Mumbai to Pune
+2025-02-27 11:38:52 [INFO] Starting test : One way Flight Search using CSV data from null to undefined
+2025-02-27 11:38:55 [INFO] Stopping test : One way Flight Search using CSV data from Chennai to Jaipur
+2025-02-27 11:38:56 [INFO] Stopping test : One way Flight Search using CSV data from Delhi to Hyderabad
+2025-02-27 11:38:57 [INFO] Starting test : One way Flight Search using CSV data from Chennai to Jaipur
+2025-02-27 11:38:58 [INFO] Stopping test : One way Flight Search using CSV data from Bangalore to Lucknow
+2025-02-27 11:38:58 [INFO] Starting test : Title Test
+2025-02-27 11:38:59 [INFO] Starting test : One way Flight Search using CSV data from Bangalore to Lucknow
+2025-02-27 11:39:23 [INFO] Starting test : One way Flight Search using CSV data from null to undefined
+2025-02-27 11:39:28 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 11:39:29 [INFO] Starting test : Title Test
+2025-02-27 11:39:31 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 11:39:55 [INFO] Starting test : Hotels Tab
+2025-02-27 11:39:59 [INFO] Starting test : Verify if Search Flights Tab is displayed
+2025-02-27 11:40:01 [INFO] Starting test :  Search button is visible
+2025-02-27 11:40:02 [INFO] Starting test : Verify if Login/Sign up btn is displayed in home page
+2025-02-27 11:40:26 [INFO] Starting test : Hotels Tab
+2025-02-27 11:40:32 [INFO] Starting test :  Search button is visible

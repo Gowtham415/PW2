@@ -1,5 +1,11 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import * as Papa from 'papaparse';
+
+export interface CitiesData {
+  sourceCity: string;
+  destinationCity: string;
+}
 
 interface TestData {
   id: number;
@@ -10,6 +16,34 @@ interface TestData {
 
 interface TestDataFile {
   tests: TestData[];
+}
+
+export const readCsvNode = async (filePath: string): Promise<any> => {
+  const csvString = await fs.promises.readFile(filePath, 'utf-8');
+  const { data } = Papa.parse(csvString, {
+    header: true,
+    dynamicTyping: true,
+  });
+
+  return data;
+};
+
+export function getCitiesArrayData(): CitiesData[] {
+  const csvFilePath = path.resolve(__dirname, '../test-data/citiesdata.csv');
+  const csvString = fs.readFileSync(csvFilePath, 'utf-8');
+  const { data } = Papa.parse(csvString, {
+    header: true,
+    dynamicTyping: true,
+  });
+
+  const citiesDataArray: CitiesData[] = data.map((row: any) => {
+    return {
+      sourceCity: row.sourceCity,
+      destinationCity: row.destinationCity,
+    };
+  });
+
+  return citiesDataArray;
 }
 
 export function loadTestData(filePath: string): TestDataFile {

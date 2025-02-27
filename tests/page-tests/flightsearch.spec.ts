@@ -1,7 +1,8 @@
 import { expect } from 'playwright/test'
 import { test } from '@fixtures'
 import { DateUtils } from '@utils/dateUtils'
-import { CityPair, cityPairs } from '@data/citypairs'
+import { cityPairs } from '@data/citypairs'
+import {getCitiesArrayData} from '@utils/fileUtils'
 
 const DAYS_AFTER_DEPARTURE_DATE = 2;
 
@@ -44,5 +45,14 @@ for(const {source, destination} of cityPairs){
     })
 }
 
+for (const cities of getCitiesArrayData()) {
+    test(`One way Flight Search using CSV data from ${cities.sourceCity} to ${cities.destinationCity}`, { tag: ['@regression'] }, async ({ flightSearchPage }) => {
+        await flightSearchPage.setSourceCity(cities.sourceCity);
+        await flightSearchPage.setDestinationCity(cities.destinationCity);
+        await flightSearchPage.selectDepartureDate(DateUtils.futureDate);
+        const flightsToBook = await flightSearchPage.clickSearchFights();
+        await expect(flightsToBook).toBeVisible();
+    });
+}
 
 
