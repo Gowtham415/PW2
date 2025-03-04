@@ -10,7 +10,8 @@
             "@fixtures":["fixtures/fixtures.ts"],
             "@locators":["test-data/locators.json"],
             "@logger":["logger.ts"],
-            "@data/*":["test-data/*"]
+            "@data/*":["test-data/*"],
+            "@hrmlocators":["test-data/hrmlocators.json"]
         }
     }
 }

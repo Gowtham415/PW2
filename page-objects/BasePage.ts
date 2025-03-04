@@ -17,4 +17,8 @@ export class BasePage{
              await this.page.locator('[data-testid="rightArrow"]').click();
          }
      }
+
+     async pageTitle():Promise<string>{
+        return await this.page.title();
+    }
 }
